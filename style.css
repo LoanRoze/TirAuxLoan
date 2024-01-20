@@ -1,0 +1,246 @@
+body {
+  background-color: #404c87;
+  background-position: center;
+  background-size: 89%;
+}
+
+* {
+  font-family: 'Courier New', Courier, monospace;
+  user-select: none;
+}
+
+#all-page {
+  display: flex;
+  justify-content: center;
+}
+
+#left-controller {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+#left-controller > * {
+  width: 300px;
+}
+
+#croix {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0%;
+}
+#croixLeft, #croixRight {
+  height: 20%;
+  margin-top:30% ;
+}
+
+#croixMiddleSpace {
+  height: 20%;
+  margin-top:30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#croixMiddleSpace > * {
+  height: 92%;
+}
+
+#volumeButton {
+  display: flex;
+  justify-content: right;
+}
+#volume {
+  height: 40%;
+  padding-right: 20px;
+}
+
+#right-controller {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+#right-controller > * {
+  width: 300px;
+}
+
+#spaceLED {
+  display: flex;
+  justify-content: left;
+  height: 50px;
+}
+#LED {
+  height: 70%;
+  margin-left: 50px;
+}
+
+#buttons {
+  margin-left: 50px;
+  height: 130px;
+  display: flex;
+}
+#buttonA {
+  align-self: flex-start;
+}
+#buttonB {
+  align-self: flex-end;
+}
+
+#ventilation {
+  height: 30%;
+  width: 55%;
+  margin-left: 30px;
+}
+
+
+#progressBar {
+  display: flex;
+  margin: auto;
+  width: 400px;
+  accent-color: grey;
+  height: 20px;
+  
+}
+
+
+#infos {
+  padding-top: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+
+#compteur {
+  display: flex;
+  padding: 5px;
+  color: white;
+  border: 2px solid #84878c;
+  background-color: #84878c;
+  border-radius: 20px;
+}
+
+#compteur:hover {
+  box-shadow: 10px;
+  background-color: #616469;
+}
+
+#Temps {
+  display: flex;
+  color: white;
+  padding: 5px;
+  border: 2px solid grey;
+  background-color: grey;
+  border-radius: 20px;
+}
+
+#Temps:hover {
+  box-shadow: 10px;
+  background-color: #616469;
+}
+
+
+
+#game-space {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+  background-image: url(assets/fond1.png);
+  border: 5px solid grey;
+  margin: auto;
+  cursor: url(assets/cursor.png) 35 35, auto;
+  overflow: hidden;
+
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #cc0000;
+}
+
+#mute {
+  width: 15%;
+  margin-left: 85%;
+}
+
+#Final-Screen {
+  width: auto;
+  height: auto;
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+  background-position: center;
+  background-size: auto;
+}
+
+#title {
+  font-size: xx-large;
+  color: #87f03c;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#ExplanationSpace{
+  color: #87f03c;
+  text-align: center;
+  margin-top: 10%;
+  padding: 5px;
+  font-size: 18px;
+}
+
+#ClignotingText {
+  color: #87f03c;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  font-size: xx-large;
+}
+
+
+
+#endspace {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #87f03c;
+  font-size: 40px;
+}
+
+#Final-Score, #endscore {
+  display: flex;
+  justify-content: center;
+  color: #87f03c;
+  font-size: 35px;
+}
+
+#NextLevel, #RestartLevel, #RestartAll, #BasicGM, #TimerGM, #EndlessGM {
+  color: #87f03c;
+  text-align: center;
+  margin-top: 10px;
+  font-size: x-large;
+  border: #87f03c solid 1px;  
+
+}
+
+#NextLevel:hover, #RestartLevel:hover, #RestartAll:hover, #BasicGM:hover, #TimerGM:hover, #EndlessGM:hover {
+  color: #66b52d;
+  border: #66b52d solid 1px;
+}
+
+#resume {
+  margin-top: 45%;
+}
+
+
+
+#warnings {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  color: red;
+}
