@@ -684,7 +684,8 @@ function Start() {
         clearInterval(levelUpgrade);
         clearInterval(verifUpgrade);
       }
-      CurrentLevel = levels[CurrentLevel.level];
+      else CurrentLevel = levels[CurrentLevel.level];
+
     }, 20000);
     //boucle qui met fin a la precedente si le jeu est finit
     let verifUpgrade = setInterval(() => {
