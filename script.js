@@ -182,7 +182,6 @@ class Meteor {
   updatePos() {
     this.meteorHTML.style.right = this.rightPos + "px";
     this.meteorHTML.style.top = this.topPos + "px";
-    console.log(this.meteorHTML.style.right, this.meteorHTML.style.top);
   }
 
   //Fonction qui lance un deplacement qui s'arrete quand la météorite disparait, le déplacement change selon le niveaux et selon le côté
